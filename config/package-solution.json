@@ -1,0 +1,19 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "spfx-api-scopes-tutorial-client-side-solution",
+    "id": "1c631e4a-3828-43b0-9d9f-ea880cfad733",
+    "version": "1.0.0.5",
+    "includeClientSideAssets": true,
+    "isDomainIsolated": false,
+    "webApiPermissionRequests": [
+      {
+        "resource": "Microsoft Graph",
+        "scope": "User.Read.All"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/spfx-api-scopes-tutorial.sppkg"
+  }
+}
